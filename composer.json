@@ -1,0 +1,26 @@
+{
+    "name": "saxum2010/productImport",
+    "description": "Simple product import",
+    "authors": [
+        {
+            "name": "Sergey",
+            "email": "saxum2010@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Saxum2010\\Productimport\\ProductimportServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Saxum2010\\Productimport\\": "src/"
+        }
+    },
+    "require": {
+        "maatwebsite/excel": "^3.1"
+    },
+    "minimum-stability": "dev"
+}
