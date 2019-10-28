@@ -1,6 +1,12 @@
 {
     "name": "saxum2010/product-import",
     "description": "Simple product import",
+    "require": {
+      "php": "~7.0"
+    },
+    "license": [
+        "MIT"
+    ],
     "authors": [
         {
             "name": "Sergey",
