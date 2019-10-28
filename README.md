@@ -3,7 +3,7 @@ This library import product data into Product model for Laravel
 
 ## Installation
 
-    composer require saxum2010/product-import
+> composer require saxum2010/product-import
 
 Add service providers
 ### config/app.php
