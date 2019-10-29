@@ -1,10 +1,10 @@
 <?php
 
-namespace Saxum2010\Productimport;
+namespace Saxum2010\ProductImport;
 
 use Illuminate\Support\ServiceProvider;
 
-class ProductimportServiceProvider extends ServiceProvider
+class ProductImportServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
@@ -13,9 +13,10 @@ class ProductimportServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->commands(
+            'Saxum2010\ProductImport\Commands\ProductImportCommand'
+        );
     }
-
     /**
      * Bootstrap services.
      *
@@ -24,10 +25,5 @@ class ProductimportServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        if ($this->app->runningInConsole()) {
-            $this->commands([
-                ProductImportCommand::class,
-            ]);
-        }
     }
 }

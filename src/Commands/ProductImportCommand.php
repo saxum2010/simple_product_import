@@ -1,6 +1,8 @@
 <?php
 
-namespace Saxum2010\Productimport;
+namespace Saxum2010\ProductImport\Commands;
+
+use Saxum2010\ProductImport\Import;
 
 use App\Console\Commands;
 
@@ -40,10 +42,10 @@ class ProductImportCommand extends Command
     public function handle()
     {
         $filename = $this->argument('filename');
-        if ($this->confirm("Are you sure you want to run import?", true)) {
-            $this->output->title('Starting import');
+        if ($this->confirm("Are you sure want run import?", true)) {
+            $this->output->title('Starting import ...');
             (new ProductImport)->withOutput($this->output)->import($filename, 'local', \Maatwebsite\Excel\Excel::CSV);
-            $this->output->success('Import successful');
+            $this->output->success('Successfully!');
         }
     }
 }
