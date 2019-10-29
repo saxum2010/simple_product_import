@@ -2,7 +2,7 @@
 
 namespace Saxum2010\ProductImport\Commands;
 
-use Saxum2010\ProductImport\Import;
+use Saxum2010\ProductImport\Import\ProductImport;
 
 use App\Console\Commands;
 
