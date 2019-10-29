@@ -1,6 +1,6 @@
 <?php
 
-namespace Saxum2010\ProductImport\Commands;
+namespace Saxum2010\ProductImport\Console\Commands;
 
 use Saxum2010\ProductImport\Import\ProductImport;
 

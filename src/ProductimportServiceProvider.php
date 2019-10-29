@@ -14,7 +14,7 @@ class ProductImportServiceProvider extends ServiceProvider
     public function register()
     {
         $this->commands(
-            'Saxum2010\ProductImport\Commands\ProductImportCommand'
+            'Saxum2010\Productimport\Console\Commands\ProductImportCommand'
         );
     }
     /**

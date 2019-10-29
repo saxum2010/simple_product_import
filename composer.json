@@ -14,7 +14,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Saxum2010\\Productimport\\ProductimportServiceProvider"
+                "Saxum2010\\Productimport\\ProductImportServiceProvider"
             ]
         }
     },
