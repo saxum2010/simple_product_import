@@ -1,8 +1,8 @@
 <?php
 
-namespace Saxum2010\ProductImport\Console\Commands;
+namespace Saxum\ProductImport\Console\Commands;
 
-use Saxum2010\Productimport\Import\ProductImport;
+use Saxum\Productimport\Import\ProductImport;
 
 use App\Console\Commands;
 
