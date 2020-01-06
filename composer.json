@@ -1,5 +1,5 @@
 {
-    "name": "saxum2010/product-import",
+    "name": "saxum/product-import",
     "description": "Simple laravel product import",
     "require": {
       "php": "~7.0"
@@ -14,13 +14,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Saxum2010\\Productimport\\ProductImportServiceProvider"
+                "Saxum\\Productimport\\ProductImportServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Saxum2010\\Productimport\\": "src/"
+            "Saxum\\Productimport\\": "src/"
         }
     },
     "require": {
