@@ -1,5 +1,5 @@
 <?php
-namespace Saxum2010\ProductImport\Import;
+namespace Saxum\ProductImport\Import;
 
 use App\Product;
 use Maatwebsite\Excel\Concerns\Importable;
