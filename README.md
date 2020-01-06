@@ -1,4 +1,4 @@
-# Simple laravel product import
+# Simple laravel product import.
 This library import product data into Product model for Laravel 
 
 ## Installation
