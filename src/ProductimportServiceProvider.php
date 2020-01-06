@@ -1,6 +1,6 @@
 <?php
 
-namespace Saxum2010\ProductImport;
+namespace Saxum\ProductImport;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,7 +14,7 @@ class ProductImportServiceProvider extends ServiceProvider
     public function register()
     {
         $this->commands(
-            'Saxum2010\Productimport\Console\Commands\ProductImportCommand'
+            'Saxum\Productimport\Console\Commands\ProductImportCommand'
         );
     }
     /**
